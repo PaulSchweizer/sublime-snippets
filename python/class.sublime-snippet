@@ -1,0 +1,19 @@
+<snippet>
+<content>
+<![CDATA[
+class ${1:ClassName}(${2:object}):
+
+    """${3:@todo documentation for $1.}"""
+
+    def __init__(self${4:, param}):
+        """${5:Initialize $1.}"""
+        super($1, self).__init__()
+        ${6:pass}
+    # end def __init__
+# end class $1
+]]>
+</content>
+<tabTrigger>class</tabTrigger>
+<scope>source.python</scope>
+<description>Paul's Class</description>
+</snippet>
