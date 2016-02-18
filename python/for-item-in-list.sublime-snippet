@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+for item in ${1:list()}:
+    ${2:pass}
+# end for $3
+]]>
+</content>
+<tabTrigger>for</tabTrigger>
+<scope>source.python</scope>
+<description>Paul's for item in list</description>
+</snippet>

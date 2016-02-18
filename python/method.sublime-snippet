@@ -1,0 +1,13 @@
+<snippet>
+<content>
+<![CDATA[
+def ${1:method}(self${2:, param}):
+    """${3:@todo documentation for $1.}"""
+    ${4:pass}
+# end def $1
+]]>
+</content>
+<tabTrigger>def</tabTrigger>
+<scope>source.python</scope>
+<description>Paul's Method</description>
+</snippet>

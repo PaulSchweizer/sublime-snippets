@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+for i in range(${1:6}):
+    ${2:pass}
+# end for $3
+]]>
+</content>
+<tabTrigger>for</tabTrigger>
+<scope>source.python</scope>
+<description>Paul's for i in range loop</description>
+</snippet>
